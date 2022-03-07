@@ -1,5 +1,8 @@
 project(LearnOpenGLOne)
 
+cmake_minimum_required(VERSION 3.2.0)
+
+include_directories(ext/stb)
 
 include_directories(ext/glm)
 add_subdirectory(ext/glm)
